@@ -4,7 +4,7 @@ import net.glyphstone.quick.importer.ProductLoader
 import net.glyphstone.quick.types.product.ProductConverter
 
 fun main(args: Array<String>){  
-    println("This is a Test Program running here...")
+    println("Test import grocery products flat file and output List of standard ProductRecords.")
 
     var inputFileName: String = ""
     if( args.size >= 1 ) {
@@ -26,5 +26,5 @@ fun main(args: Array<String>){
     println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     records.forEach{ println("${it.toString()}\n--------------------------")}
 
-    println("=============================\nEnd of list.\nDone.")
+    println("\nDone.")
 }
