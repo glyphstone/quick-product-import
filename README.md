@@ -16,7 +16,7 @@ The project was built with these requisites.  Lower versions may work but have n
 
 
 ## Test/Demo
-To perform q quick smoke test using the demo main provided
+To perform a quick smoke test using the demo main provided:
 ```
 $> cd quick-product-import
 $> kotlinc src -include-runtime -d quick.jar
