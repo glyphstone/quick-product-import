@@ -1,5 +1,4 @@
 package net.glyphstone.quick.types.product
-import java.time.LocalDateTime
 import net.glyphstone.quick.importer.SourceProduct
 
 class ProductConverter {
