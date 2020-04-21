@@ -7,7 +7,7 @@ import kotlin.system.exitProcess
 fun main(args: Array<String>){  
     println("Test import grocery products flat file and output List of standard ProductRecords.")
 
-    var inputFileName: String = ""
+    var inputFileName: String
     if( args.size >= 1 ) {
         inputFileName = args[args.size-1]
         println("Input File: ${inputFileName}")
