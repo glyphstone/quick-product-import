@@ -34,7 +34,7 @@ class SourceProduct : BaseSourceType() {
        "regularForX:........... ${regularForX}\n" +
        "promotionalForX:....... ${promotionalForX}\n" +
        "flags:................. ${booleanArrayToString(flags)}\n" ) +
-       "productSize:........... \"${productSize}\" \n" 
+       "productSize:........... \"${productSize}\""
    }
 
    fun booleanArrayToString( barray: BooleanArray): String {
