@@ -4,6 +4,9 @@ Quick-Product-Import is a demonstration and first experiment with Kotlin, a mode
 ## Author
 Breanna Anderson
 
+## Build Status
+[![Build Status](https://travis-ci.org/glyphstone/quick-product-import.svg?branch=master)](https://travis-ci.org/glyphstone/quick-product-import)
+
 ## Prerequisites
 The project was built with these requisites.  Lower versions may work but have not been tested
 * Java JDK 14
