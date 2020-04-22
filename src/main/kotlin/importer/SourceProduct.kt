@@ -41,7 +41,6 @@ class SourceProduct : BaseSourceType() {
        var strout: String = ""
        barray.forEach{ strout += if( it) "T" else "F" }
        return strout
-
    }
 
 }

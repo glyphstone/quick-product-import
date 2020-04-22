@@ -17,7 +17,7 @@ fun main(args: Array<String>){
     }
 
     var loader = ProductLoader()
-    var sourceProducts = loader.load( inputFileName )
+    var sourceProducts = loader.loadFromFile( inputFileName )
 
     println("\n\nInput Data:\n===================")
     sourceProducts.forEach{ println("${it.toString()}\n------------------\n")}
