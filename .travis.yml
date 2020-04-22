@@ -1,0 +1,10 @@
+
+language: java
+
+matrix:
+  include:
+    - os: linux
+      sudo: required
+      jdk: openjdk14
+
+script: ./gradlew clean build fatJar
