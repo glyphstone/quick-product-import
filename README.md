@@ -10,9 +10,10 @@ The project was built with these requisites.  Lower versions may work but have n
 * Kotlin version 1.3.71-release-431 (JRE 14+36-1461)
 * Intellij IDEA 2020.1 (Optional)
 
-## Installation and Quick Build
+## Installation
 * Clone the repo
 * $>cd quick-product-import
+* Use Editor IDE of choice. e.g. Intellij IDEA.
 
 
 ## Test/Demo
