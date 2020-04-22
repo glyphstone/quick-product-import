@@ -7,7 +7,8 @@ Breanna Anderson
 ## Build Status
 [![Build Status](https://travis-ci.org/glyphstone/quick-product-import.svg?branch=master)](https://travis-ci.org/glyphstone/quick-product-import)
 
-Build with Travis CI: https://travis-ci.org/github/glyphstone/quick-product-import
+- Build with Travis CI: https://travis-ci.org/github/glyphstone/quick-product-import
+- Current Version: 1.0.1: https://github.com/glyphstone/quick-product-import/tree/1.0.1
 
 ## Prerequisites
 The project was built with these requisites.  Lower versions may work but have not been tested
