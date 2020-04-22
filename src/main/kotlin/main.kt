@@ -5,7 +5,7 @@ import net.glyphstone.quick.types.product.ProductConverter
 import kotlin.system.exitProcess
 
 fun main(args: Array<String>){  
-    println("Test import grocery products flat file and output List of standard ProductRecords.")
+    println("Test import grocery products flat file and output List of standard ProductRecords. V1")
 
     var inputFileName: String
     if( args.size >= 1 ) {
