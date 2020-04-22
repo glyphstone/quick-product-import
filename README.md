@@ -7,6 +7,8 @@ Breanna Anderson
 ## Build Status
 [![Build Status](https://travis-ci.org/glyphstone/quick-product-import.svg?branch=master)](https://travis-ci.org/glyphstone/quick-product-import)
 
+Build with Travis CI: https://travis-ci.org/github/glyphstone/quick-product-import
+
 ## Prerequisites
 The project was built with these requisites.  Lower versions may work but have not been tested
 * Java JDK 14
