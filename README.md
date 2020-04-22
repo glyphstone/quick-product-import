@@ -14,20 +14,18 @@ Breanna Anderson
 The project was built with these requisites.  Lower versions may work but have not been tested
 * Java JDK 14
 * Kotlin version 1.3.71-release-431 (JRE 14+36-1461)
-* Intellij IDEA 2020.1 (Optional)
 
-## Installation
-* Clone the repo
-* $>cd quick-product-import
-* Use Editor IDE of choice. e.g. Intellij IDEA.
-
+## Installation and Build
+* Clone the repo into your local system (Windows 10 assumed here)
+* $> cd quick-product-import
+* $> gradlew clean build fatJar
 
 ## Test/Demo
 To perform a quick smoke test using the demo main provided:
+Build the executable Jar as specified previously
 ```
 $> cd quick-product-import
-$> kotlinc src -include-runtime -d quick.jar
-$> java -jar quick.jar data/input-sample.txt
+$> java -jar build/libs/importer-1.0.1.jar data/input-sample.txt
 
 Expect to see data output printing input data and output record content for inspection
 
