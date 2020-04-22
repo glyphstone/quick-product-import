@@ -4,13 +4,13 @@ import java.io.File
 
 class ProductLoader {
 
-    fun load( inputFile: String ): List<SourceProduct> {
+    fun loadFromFile(inputFile: String ): List<SourceProduct> {
         var products: MutableList<SourceProduct> = ArrayList()
-        File(inputFile).forEachLine { products.add( loadOne(it)) }
+        File(inputFile).forEachLine { products.add( load(it)) }
         return products
 
     }
-    fun loadOne( data: String ) : SourceProduct {
+    fun load(data: String ) : SourceProduct {
         var product = SourceProduct()
         product.loadNumber( product::productId, data, 0, 7)
         product.loadString( product::productDescription, data, 9, 67, true)
